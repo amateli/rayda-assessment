@@ -3,26 +3,17 @@ import AuctionItemBox from '../AuctionItemBox/AuctionItemBox';
 import css from './AuctionItems.module.css'
 
 const AuctionItems = () => {
-  const [items, setItems] = useState([
-    {
-      id: 1,
-      name: "John Doe",
-      title: "Apple MacBook Air 13 M1 Chip 8GB 256GB 2020 Model - Rose Gold",
-      bid: "₦795,000",
-      image: "https://i.ibb.co/h7Bts6w/Imagelaptop.png"
-    },
-    {
-      id: 2,
-      name: "Peter Doe",
-      title: "Apple MacBook Air 13 M1 Chip 8GB 256GB 2020 Model - Rose Gold",
-      bid: "₦795,000",
-      image: "https://i.ibb.co/h7Bts6w/Imagelaptop.png"
-    },
-  ]);
+  const [items, setItems] = useState([]);
   
   useEffect(() =>{
-    fetch('')
-  });
+    fetch('https://run.mocky.io/v3/7f02819f-8254-410a-b8af-ab98572bd26b')
+      .then(res => {
+        return res.json();
+      })
+      .then((data) => {
+        setItems(data.data);
+      })
+  }, []);
 
   return ( 
         <>

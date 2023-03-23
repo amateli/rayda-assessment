@@ -39,4 +39,5 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2.4rem;
+  justify-content: space-evenly;
 }

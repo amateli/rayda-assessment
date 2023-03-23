@@ -1,13 +1,15 @@
 import css from "./AuctionItemBox.module.css";
 
 const AuctionItemBox = ({items}) => {
+  
+  
 
   return (
     <>
-      {items.map((items) => (
-        <div className={css.container} key={items.id}>
+      {items.map((items, index) => (
+        <div className={css.container} key={index}>
           <div className={css.productPreview}>
-            <img src={items.image} alt="" />
+            <img src={items.image} alt="item" />
           </div>
           <div className={css.textBox}>
             <div className={css.userBio}>
