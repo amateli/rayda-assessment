@@ -1,0 +1,22 @@
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #EAECF0;
+}
+
+.headerText h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #101828;
+  margin-bottom: 0.4rem;
+}
+
+.headerText p {
+  font-size: 1.6rem;
+  color: #475467;
+}
+
+.headerIcon {
+  padding: 1.2rem;
+}

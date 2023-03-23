@@ -1,0 +1,85 @@
+.container {
+  border-radius: 1.2rem;
+  padding: 1.2rem;
+  width: fit-content;
+  border: 1px solid #D0D5DD;
+}
+
+.productPreview {
+  width: 30rem;
+  max-width: 30rem;
+  height: 13.2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #F2F4F7;
+  border-radius: 1.2rem;
+}
+
+.textBox {
+  margin: 2.2rem 0 1.2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #EAECF0;
+}
+
+.userBio {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.9rem;
+}
+
+.userBio p {
+  color: #344054;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.userBio p span {
+  margin-left: 0.8rem;   
+  color: #98A2B3;
+}
+
+.userInitials {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 3.2rem;
+   height: 3.2rem;
+   background-color: #F2F4F7;
+   border-radius: 50%;
+}
+
+.userInitials span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #475467;
+}
+
+.model {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #101828;
+  max-width: 30rem;
+}
+
+.currentBid {
+  color: #344054;
+  font-size: 1.4rem;
+}
+
+.currentBid span {
+  font-weight: 700;
+}
+
+.container button {
+  width: 100%;
+  border: 1px solid #004CCC;
+  background-color: #004CCC;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
