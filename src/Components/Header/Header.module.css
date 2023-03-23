@@ -19,4 +19,21 @@
 
 .headerIcon {
   padding: 1.2rem;
+  cursor: pointer;
+}
+
+.headerIcon .number {
+  position: relative;
+  bottom: 1.2rem;
+  left: 1rem;
+  color: #fff;
+  background-color: #F04438;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

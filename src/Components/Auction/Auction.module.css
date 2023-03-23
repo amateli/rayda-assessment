@@ -86,6 +86,12 @@
   gap: 1rem;
   align-items: center;
   height: fit-content;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+
+.inviteBtn:hover {
+  background-color: #EAECF0;
 }
 
 .inviteBtn span {

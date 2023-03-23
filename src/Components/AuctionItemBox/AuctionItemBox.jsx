@@ -2,8 +2,6 @@ import css from "./AuctionItemBox.module.css";
 
 const AuctionItemBox = ({items}) => {
   
-  
-
   return (
     <>
       {items.map((items, index) => (
